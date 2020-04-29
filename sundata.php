@@ -1,4 +1,5 @@
 <!--
+dec61f8a36c608
 
 this is the data entry page to get sunset/sunrise results
 -user enters location by latitude and longitude (decimal)
@@ -15,6 +16,10 @@ this is the data entry page to get sunset/sunrise results
 *add bootstrap formatting later
 *for reference, look at addPet.php
 
+set up the script for get geocode, put it after the location entered
+edit sunresults to use the non-post data for latitude and longitude
+add the buttons and stuff for autofill
+
 -->
 
 <!DOCTYPE html>
@@ -25,18 +30,14 @@ this is the data entry page to get sunset/sunrise results
 
 <body>
 <form method="post" action="sunresults.php">
-      <h1> Enter a location by latitude and longitude (decimal form), or select one of the options</h1>
+      <h1> Enter a location (address, city, state, etc.)</h1>
 
-        <p>Latitude<br/>
-           <input type="number" name="latitude"/>
-       </p>
-
-       <p>Longitude<br/>
-           <input type="number" name="longitude"/>
+        <p>Location<br/>
+           <input type="text" name="location"/>
        </p>
 
         <!--
-        *These options should autofill the fields for latitude/longitude, reload page with data entered
+        *These options should autofill the field for location, reload page with data entered
         <p>Some Locations Around the World<br/>
           <select name="predetermined">
                 <option value="0">Choose a city</option>
@@ -115,7 +116,7 @@ this is the data entry page to get sunset/sunrise results
        </p>
 
         <input type="submit"> 
-        <input type="reset" value="Clear Form">      
+        <input type="reset" value="Clear Form">     
 </form>
 </body>
 </html> 
