@@ -3,13 +3,13 @@
 <div class="container-fluid bg-1 text-center"></div>
 <div class="container-fluid bg-2">
     <body>
-        <h1 style="margin-left: 40px">
+        <h1 style="margin-left: 100px">
             About Our Project
         </h1>
-        <h2 style="margin-left: 60px">
+        <h2 style="margin-left: 150px">
             Technologies Used
         </h2>
-        <ul style="margin-left: 100px">
+        <ul style="margin-left: 200px">
             <li>
                 HTML
             </li>
@@ -26,10 +26,10 @@
                 HTTP Requests
             </li>
         </ul>
-        <h2 style="margin-left: 60px">
+        <h2 style="margin-left: 150px">
             Group Members
         </h2>
-        <ul style="margin-left: 100px">
+        <ul style="margin-left: 200px">
             <li>
                 Brady McGannon
             </li>
@@ -40,6 +40,12 @@
                 Jared Marinelli
             </li>
         </ul>
+</div>
+<div class="container-fluid bg-3 text-center">    
+  <div class="credits">
+  <p> Time data from <a href="https://sunrise-sunset.org/api">Sunrise/Sunset API</a></p>
+  </br><p> Geocoding from <a href="https://locationiq.com/">LocationIQ API</a></p>
+  </div>
 </div>
 <div class="container-fluid bg-1 text-center"></div>
 <footer class="container-fluid bg-4 text-center">
