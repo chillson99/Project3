@@ -1,21 +1,15 @@
-<!-- basic page with project information -->
-<!doctype html>
+<?php include 'navbar.php'; ?>
 
-<html lang="en">
-    <head>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    </head>
+<div class="container-fluid bg-1 text-center"></div>
+<div class="container-fluid bg-2">
     <body>
-        <div class="container pt-5">
-        <h1>
+        <h1 style="margin-left: 40px">
             About Our Project
         </h1>
-        <h2>
+        <h2 style="margin-left: 60px">
             Technologies Used
         </h2>
-        <ul>
+        <ul style="margin-left: 100px">
             <li>
                 HTML
             </li>
@@ -32,10 +26,10 @@
                 HTTP Requests
             </li>
         </ul>
-        <h2>
+        <h2 style="margin-left: 60px">
             Group Members
         </h2>
-        <ul>
+        <ul style="margin-left: 100px">
             <li>
                 Brady McGannon
             </li>
@@ -46,6 +40,10 @@
                 Jared Marinelli
             </li>
         </ul>
-    </div>
-    </body>
+</div>
+<div class="container-fluid bg-1 text-center"></div>
+<footer class="container-fluid bg-4 text-center">
+  <h4 class="misc">Copyright 2020 @ Bootstrap Theme By <a href="https://www.w3schools.com">www.w3schools.com</a></h4> 
+</footer>
+</body>
 </html>

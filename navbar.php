@@ -24,7 +24,7 @@
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
             <li><a href="sundata.php">Calculate</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.php">About</a></li>
         </ul>
         </div>
     </div>

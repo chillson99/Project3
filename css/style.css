@@ -1,73 +1,92 @@
 body {
-    font: 20px Montserrat, sans-serif;
+    font: Montserrat, sans-serif !important;
     line-height: 1.8;
     color: #f5f6f7;
   }
 
   p {font: 22px Montserrat, sans-serif;}
-  
+
+  #errormsg{
+    color: white !important;
+    font: 40px Montserrat, sans-serif !important;
+  }
+
+  .table {
+    font: Montserrat, sans-serif !important;
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    width: 100% !important;
+  }
+
+  .table th, td{
+    border-bottom: 1px solid #d45e4a !important;
+    border-top: 0px !important;
+    font: Montserrat, sans-serif !important;
+  }
+   
   .imageSun {
     width: 200;
     height: auto;
   }
 
   .imageNova {
-    opacity: 0.35;
     width: 15%;
     height: auto;
     vertical-align: middle;
   }
 
   .margin {
-      margin-bottom: 45px;
-      font: Montserrat, sans-serif;
-      letter-spacing: 10px;
-      font-stretch: narrower;
-      font-weight: 200;
-      color: rgba(255, 255, 255, 0.5); 
-            font-size: 100px; 
-            -webkit-text-stroke-width: 1px; 
-            -webkit-text-stroke-color: rgb(255, 255, 255); 
+    margin-bottom: 45px;
+    font: Montserrat, sans-serif;
+    letter-spacing: 10px;
+    font-stretch: narrower;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 100px; 
+        -webkit-text-stroke-width: 1px; 
+        -webkit-text-stroke-color: rgb(255, 255, 255); 
     }
 
-    .margin2 {
-        margin-bottom: 10px;
-        font: Montserrat, sans-serif;
-        letter-spacing: 10px;
-        font-stretch: narrower;
-        font-weight: 200;
-        color: rgba(255, 255, 255, 0.5); 
-              font-size: 40px; 
-              -webkit-text-stroke-width: 1px; 
-              -webkit-text-stroke-color: rgb(255, 255, 255); 
-      }
+  .margin2 {
+    margin-bottom: 10px;
+    font: Montserrat, sans-serif;
+    letter-spacing: 10px;
+    font-stretch: narrower;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 40px; 
+      -webkit-text-stroke-width: 1px; 
+      -webkit-text-stroke-color: rgb(255, 255, 255); 
+  }
 
-      .margin3 {
-        margin-bottom: 10px;
-        font: bold 30px Montserrat, sans-serif;
-        color: #853e53; 
-        position: relative;
-        text-align:left;
-        left: 90px;
-      }
+  .margin3 {
+    margin-bottom: 10px;
+    font: bold 30px Montserrat, sans-serif;
+    color: #853e53; 
+    position: relative;
+    text-align:left;
+    left: 90px;
+  }
 
-    .block {
-        position: absolute;
-        left: 110px;
-        width: 700px;
-        text-align: left;
-        font-size: 20px !important;
-        font-weight: 300;
-    }
-
-    .credits p{
-        margin-left: 50px;
-        letter-spacing: 5px;
-        text-align: right;
-        display:inline-block;
-        font-size: 30px;
-        vertical-align: middle;
-    }
+  .block {
+    position: absolute;
+    left: 110px;
+    width: 700px;
+    text-align: left;
+    font-size: 20px !important;
+    font-weight: 300;
+  }
+    
+  .credits p{
+    margin-left: 50px;
+    letter-spacing: 3px;
+    text-align: right;
+    display:inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+    font: Montserrat, sans-serif !important;
+  }
 
   .bg-1 { 
     background-image: url('../images/sunset.jpg');
