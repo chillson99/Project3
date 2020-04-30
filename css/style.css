@@ -1,0 +1,150 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+
+  p {font: 22px Montserrat, sans-serif;}
+  
+  .imageSun {
+    width: 200;
+    height: auto;
+  }
+
+  .imageNova {
+    opacity: 0.35;
+    width: 15%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .margin {
+      margin-bottom: 45px;
+      font: Montserrat, sans-serif;
+      letter-spacing: 10px;
+      font-stretch: narrower;
+      font-weight: 200;
+      color: rgba(255, 255, 255, 0.5); 
+            font-size: 100px; 
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: rgb(255, 255, 255); 
+    }
+
+    .margin2 {
+        margin-bottom: 10px;
+        font: Montserrat, sans-serif;
+        letter-spacing: 10px;
+        font-stretch: narrower;
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.5); 
+              font-size: 40px; 
+              -webkit-text-stroke-width: 1px; 
+              -webkit-text-stroke-color: rgb(255, 255, 255); 
+      }
+
+      .margin3 {
+        margin-bottom: 10px;
+        font: bold 30px Montserrat, sans-serif;
+        color: #853e53; 
+        position: relative;
+        text-align:left;
+        left: 90px;
+      }
+
+    .block {
+        position: absolute;
+        left: 110px;
+        width: 700px;
+        text-align: left;
+        font-size: 20px !important;
+        font-weight: 300;
+    }
+
+    .credits p{
+        margin-left: 50px;
+        letter-spacing: 5px;
+        text-align: right;
+        display:inline-block;
+        font-size: 30px;
+        vertical-align: middle;
+    }
+
+  .bg-1 { 
+    background-image: url('../images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    
+  }
+  .bg-2 { 
+    padding-top: 30px !important;
+    padding-bottom: 90px !important;
+    background-color: #f1c27b;
+    color: #853e53;
+  }
+  
+  .bg-3 { 
+    background-color: #362949;
+    color: #ffffff;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .bg-4 { 
+    background-color: white;
+    color: #d45e4a;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .button {
+    background-color: #d45e4a;
+    position: relative;
+    color: white;
+    padding: 20px;
+    left: 350px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 12px;
+    font: 50px Montserrat, sans-serif;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: #d45e4a;
+  }
+
+  .misc {
+    font: 12px Montserrat, sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    z-index: 2;
+    overflow: hidden !important;
+    position: fixed !important;
+    position: relative;
+    top: 0 !important;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: rgba(255,255,255,0.25) !important;
+    color: white !important;
+  }
+  .navbar-nav  li a:hover {
+    color: #33e3f0 !important;
+    margin-bottom: 0;
+  }
+  .navbar-nav  li a {
+    color: white !important;
+    margin-bottom: 0;
+  } 
